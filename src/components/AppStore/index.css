@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: bold;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff1eb;
+  border: 2px solid #1e293b;
+  border-radius: 5px;
+}
+.search-style {
+  background-color: #fff1eb;
+  min-width: 30vw;
+  padding: 5px;
+  outline: none;
+  border: 0px solid;
+}
+.search-icon-style {
+  background-color: #fff1eb;
+  height: 30px;
+  padding: 5px;
+}
+.category-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  cursor: pointer;
+}
+.apps-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media all and (max-width: 768px) {
+  .bg-container {
+    width: 500px;
+  }
+}

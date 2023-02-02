@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.app-content {
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.app-img-style {
+  width: 110px;
+  height: 100px;
+}
